@@ -1,5 +1,5 @@
 @ECHO OFF
-:: Declare Python file to execute - hard-coded to enable ease of execution by non-CMD-savy operators.
+:: Declare Python file to execute - hard-coded to enable ease of execution by non-CMD-savvy operators.
 SET "py_file=joke.py" 
 
 ECHO ===========================================================
