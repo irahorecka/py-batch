@@ -12,12 +12,15 @@ IF EXIST venv\ (
 	virtualenv venv
 )
 call venv\Scripts\activate
+
 ECHO Installing requirements...
 pip install -r requirements.txt
+
 ECHO ===========================================================
 ECHO Environment setup complete. Executing %py_file%...
 ECHO ===========================================================
 ECHO.
 py %py_file%
 ECHO.
+
 PAUSE
