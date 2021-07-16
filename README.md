@@ -1,6 +1,10 @@
 # py-batch
 Simple batch file repo to set up a Python environment and execute targeted script.
 
+## Required files
+- `requirements.txt`
+- Python file to execute
+
 ## Configuration
 Configuring `py_exe.bat` is simple, simply change `joke.py` to your desired Python file.
 
